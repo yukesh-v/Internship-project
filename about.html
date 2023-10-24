@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>about university</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    	<nav>
+    		<a href="home.html"><img src="image/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    			  <li><a href="home.html">home</a></li>
+                  <li><a href="course.html">course</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+    		    </ul>
+    		</div>
+    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    	</nav>
+    	<h1>About Us</h1>
+    </section>
+    <!--------------------------about us content--------------->
+
+    <section class="about-us">
+  
+    	<div class="rows">
+    		<div class="about-col">
+    			<h1>We Are The World's Best University</h1>
+    			<p>The noble mission of the University is to provide quality education to all, irrespective of socio-economic background, caste, creed or religion. This is in keeping with the motto of the College 'Pro Bono Publico' which is a translation of Sikh prayer ‘Sarbat ka bhalla’ meaning for the 'Benefit of All'. The Sikhs are a minority in the State and yet the Management does not claim any concessions extended to minority institutions. It is run and regulated like a non-minority institution in service of the majority community<br><br>
+    			<h1>The vision of the college is elucidated as follows:</h1><br><ul>
+<li>Help all those who pass through the portals of the College to have a bright future in the domains of their choice.<br><br></li>
+<li>Inculcate values and social responsibility, civic sense, discipline towards nurturing them as great sons/daughters of our Motherland – India.<br><br></li>
+<li>Instill in them a sense of belongingness and pride to be Indian citizens.<br>
+Provide the staff and students with excellent need-based infrastructure for academic pursuits.</li></ul></p>
+    			<a href="" class="btn red-btn">Explore Us</a>
+    		</div>
+    		<div class="about-col">
+    			<img src="image/about.jpg">	
+    		</div>
+    	</div>
+    </section>
+ 
+    <!---------------footer---------->
+   	<section class="footer">
+   		<h4>About us</h4>
+   		<p>Affiliated to University of Madras,<br>
+           Re-accredited at 'A' Grade by NAAC<br><br>
+           An ISO 9001: 2015 Certified Institution</p>
+   		<div class="icons">
+   			<i class="fa-brands fa-facebook"></i>
+   			<i class="fa-brands fa-twitter"></i>
+   			<i class="fa-brands fa-instagram"></i>
+   			<i class="fa-brands fa-linkedin"></i>
+   		</div>
+   	</section>
+ <!---------------javascript for toggel-------->
+    <script type="text/javascript">
+		var navlinks =document.getElementById("navlinks")
+		function showmenu() {
+			navlinks.style.left="200px";
+		}
+		function hidemenu(){
+			navlinks.style.left="500px";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact university</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    	<nav>
+    		<a href="home.html"><img src="image/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    			  <li><a href="home.html">home</a></li>
+                  <li><a href="course.html">course</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="">contact</a></li>
+    		    </ul>
+    		</div>
+    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    	</nav>
+    	<h1>Contact Us</h1>
+    </section>
+    <!--------------------------contact us--------------->
+    <section class="location">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d124441.6746974642!2d80.1636352!3d12.9204224!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1659018145260!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+    </section>
+
+    <section class="contact-us">
+    	
+    	<div class="rows">
+    		<div class="contact-col">
+    			<div>
+    				<i class="fa-solid fa-house"></i>
+    				<span>
+    					<h5>XYZ road,Bs Buliding</h5>
+    					<p>Cennai,TamilNadu,IN</p>
+    				</span>
+    			</div>
+    			<div>
+    				<i class="fa-solid fa-phone"></i>
+    				<span>
+    					<h5>+91-7767289237</h5>
+    					<p>Monday To Saturday, 9AM To 9PM</p>
+    				</span>
+    			</div>
+    			<div>
+    				<i class="fa-solid fa-envelope"></i>
+    				<span>
+    					<h5>info@eduforduniversity.com</h5>
+    					<p>Email Your query</p>
+    				</span>
+    			</div>
+    		</div>
+    		<div class="contact-col">
+    			<h2>Contact Us</h2>
+    			<form>
+    				<input type="text" placeholder="Enter Your Name " required>
+    				<input type="Email" placeholder="Enter Your Email Address " required>
+    				<textarea rows="8" placeholder=" Enter Your Query"></textarea>
+    				<button type="submit" class="btn red-btn">Submit</button>
+    			</form>
+    		</div>
+    	</div>
+
+
+
+
+    </section>
+ 
+    <!---------------footer---------->
+   	<section class="footer">
+   		<h4>About us</h4>
+   		<p>Affiliated to University of Madras,<br>
+           Re-accredited at 'A' Grade by NAAC<br><br>
+           An ISO 9001: 2015 Certified Institution</p>
+   		<div class="icons">
+   			<i class="fa-brands fa-facebook"></i>
+   			<i class="fa-brands fa-twitter"></i>
+   			<i class="fa-brands fa-instagram"></i>
+   			<i class="fa-brands fa-linkedin"></i>
+   		</div>
+   	</section>
+ <!---------------javascript for toggel-------->
+    <script type="text/javascript">
+		var navlinks =document.getElementById("navlinks")
+		function showmenu() {
+			navlinks.style.left="200px";
+		}
+		function hidemenu(){
+			navlinks.style.left="500px";
+		}
+	</script>
+</body>
+</html>

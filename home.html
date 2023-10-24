@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>university</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+    	<nav>
+    		<a href="home.html"><img src="image/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    			  <li><a href="home.html">home</a></li>
+                  <li><a href="course.html">course</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                  
+    		    </ul>
+    		</div>
+    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    	</nav>
+    	<div class="text">
+    		<h1>WORLD'S BIGGEST UNIVERSITY</h1>
+    		<p>Training young men and women of quality to be leaders in all walks of life whom we hope will play a vital role in bringing <br>About the desired changes for the betterment of the people of our country</p>
+    		<a href="know.html" class="btn">vist us to know more</a>
+    	</div>
+    </section>
+<!---------------javascript for toggel-------->
+    <script type="text/javascript">
+		var navlinks =document.getElementById("navlinks")
+		function showmenu() {
+			navlinks.style.left="200px";
+		}
+		function hidemenu(){
+			navlinks.style.left="500px";
+		}
+	</script>
+</body>
+</html>

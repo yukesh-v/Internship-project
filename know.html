@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Know More</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    	<nav>
+    		<a href="home.html"><img src="image/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    			  <li><a href="home.html">home</a></li>
+                  <li><a href="course.html">course</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+    		    </ul>
+    		</div>
+    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    	</nav>
+    	<h1> Know More</h1>
+    </section>
+    <!--------------------------know more us--------------->
+    
+    <section class="campus">
+
+    	<h1>Our Global Campus </h1>
+    	<p>The World Biggest College Had More To Know </p>
+    	<div class="rows">
+    		<div class="campus-col">
+    			<img src="image/usa.jpg">
+    			<div class="layer">
+    				<h3>LONDON</h3>
+    			</div>
+    		</div>
+    			<div class="campus-col">
+    			<img src="image/america.jpg">
+    			<div class="layer">
+    				<h3>NEW YORK</h3>
+    			</div>
+    		</div>
+    			<div class="campus-col">
+    			<img src="image/us.jpg">
+    			<div class="layer">
+    				<h3>WASHINGTON</h3>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <!--------------------------------testimonial--------------------->
+
+    <section class="testimonial">
+    	<h1>What Student Says</h1>
+    	<p>The World Biggest College Had More To Know</p>
+    	<div class="rows">
+    		<div class="testimonial-col">
+    			<img src="image/user1.jpg">
+    			<div>
+    				<p>The noble mission of the University is to provide quality education to all, irrespective of socio-economic background, caste, creed or religion.which is a translation of Sikh prayer ‘Sarbat ka bhalla’ meaning for the 'Benefit of All'.</p>
+    				<h3>Christine-</h3>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</div>
+    		 <div class="testimonial-col">
+    			<img src="image/user2.jpg">
+    			<div>
+    				<p>The noble mission of the University is to provide quality education to all, irrespective of socio-economic background, caste, creed or religion. This is in keeping with the motto of the College 'Pro Bono Publico' which is a translation of Sikh prayer ‘Sarbat ka bhalla’ meaning for the 'Benefit of All'.</p>
+    				<h3>David Byer-</h3>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star-half-stroke"></i>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <!-----------------------call to action------------------>
+
+    <section class="cta">
+    	<h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+    	<a href="contact.html" class="btn">CONTACT US</a>
+    </section>
+ 
+    <!---------------footer---------->
+   	<section class="footer">
+   		<h4>About us</h4>
+   		<p>Affiliated to University of Madras,<br>
+           Re-accredited at 'A' Grade by NAAC<br><br>
+           An ISO 9001: 2015 Certified Institution</p>
+   		<div class="icons">
+   			<i class="fa-brands fa-facebook"></i>
+   			<i class="fa-brands fa-twitter"></i>
+   			<i class="fa-brands fa-instagram"></i>
+   			<i class="fa-brands fa-linkedin"></i>
+   		</div>
+   	</section>
+ <!---------------javascript for toggel-------->
+    <script type="text/javascript">
+		var navlinks =document.getElementById("navlinks")
+		function showmenu() {
+			navlinks.style.left="200px";
+		}
+		function hidemenu(){
+			navlinks.style.left="500px";
+		}
+	</script>
+</body>
+</html>
